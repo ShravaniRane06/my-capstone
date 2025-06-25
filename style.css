@@ -1,0 +1,173 @@
+
+body{
+  font-family: "Times New Roman",serif,cursive;
+}
+
+#title{
+  background-image: url("image.png");
+  background-color: #cccccc;
+  color: white;
+  font-family: "Times New Roman",serif,cursive;
+}
+
+#title >  .px-4{
+  font-size: large;
+  font-weight: 200;
+  font-size: 50px;
+}
+
+#home{
+  background-color: rgb(7, 20, 46);
+}
+
+#home > ul{
+    color: white;
+}
+
+.program{
+    font-size: large;
+}
+
+#about{
+  padding: 40px;
+  text-align: center;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.myimg > img{
+  margin-bottom: 20px;
+  border-radius: 50%;
+  border: 2px solid rgb(45, 45, 45); 
+}
+
+.divider{
+    text-align: center;
+    color: rgb(84, 119, 146);
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  border-radius: 50%;
+  height: 100px;
+}
+
+.resume-list{
+   font-size: smaller;
+   list-style: none;
+}
+
+#features{
+  padding: 10px;
+}
+
+/*#exp{
+  padding-left: 80px;
+  padding-right: 80px;
+}*/
+
+
+.card{
+  border-width: 10px;
+  border-color: black;
+}
+
+.card > img{
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.btn-link {
+  text-decoration: none;
+  color: inherit; /* inherits the button's text color */
+}
+
+
+.experience{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  height: 60vh;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.pricing-plan {
+  flex: 1;
+  max-width: 500px;
+  height: 360px;
+  background-color: rgb(196, 225, 230);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.plan-title{
+  height: 58px;
+  font-size: 16px; 
+  color: rgb(255, 255, 255);
+  background-color: rgb(141, 188, 199);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.about{
+  margin-top:10px ;
+  margin-bottom: 10px;       
+}
+
+.plan-features {
+  font-size: small;
+  text-align: left;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+.plan-features li {
+  margin-bottom: 9px;
+  padding-left: 20px;
+}
+
+/* Hint: What can you do with a media query and flexbox? */
+@media (max-width: 1100px) {
+  .experience{
+  flex-direction: column;
+  height: 100%;
+  }
+}
+
+/* Hint: What can you do with a media query and flexbox? */
+@media (max-width: 412px) {
+  .plan-title{
+  height:100px;
+  }
+}
+
+.Contact{
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 35px;
+}
+
+.Contact > ul{
+  color: rgb(14, 14, 58);
+  font-size: 25px;
+}
+#contactme {
+  margin-top: 40px;
+  background-image: url("image.png");
+  background-color: #cccccc;
+  color: white;
+  font-family: "Times New Roman",serif,cursive;
+}
+ 
+.Contact > a:link{
+  color: white;
+}

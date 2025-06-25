@@ -1,0 +1,77 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+#pricing{
+  padding: 30px;
+}
+
+#pricing > button{
+  margin-bottom: 5px;
+}
+
+#testimonial{
+  background-color: rgba(247, 246, 246, 0.825);
+  padding: 60px;
+  text-align: center;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.dogimg{
+  margin-bottom: 60px;
+}
+
+.caption{
+  text-align: center;
+  margin-bottom: 60px;
+  color: black;
+}
+
+#pebbles{
+  font-weight: lighter;
+  font-size:25px;
+  margin-top: 10px;
+}
+
+.col-xl-3 > img{
+  height: 30px;
+  margin-bottom: 1px;
+}
+
+.dog-img{
+  border-radius: 50%;
+  margin-bottom: 1px;
+}
+
+#title{
+  padding-bottom: 0px; ;
+}
+
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  border-radius: 50%;
+  height: 100px;
+}
+
+
